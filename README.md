@@ -28,7 +28,7 @@ When a Prey reproduces, it makes a copy of its own at the same location, except 
 This is the predator class. A lot of the functions are similar to Prey. The differences are: <br>
 - Energy is gained through 'eating' (technically colliding) with any Preys in vicinity.
 - The physical characteristics are different. A different FoV is kept by default (smaller, but longer range vision).
-- They die only when their energy reaches 0.
+- They die only by energy deaths.
 
 # The stats display and output video: <br>
 OpenCV2 is used to render a video and save to the disk. The make_window() function is a basic GUI renderer - it writes elements based on **relative** screen position, therefore can be tweaked accordingly.
